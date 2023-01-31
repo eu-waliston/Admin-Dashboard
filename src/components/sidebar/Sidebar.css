@@ -1,0 +1,57 @@
+:root {
+    --sidebar--color: #313444;
+    --sidebar--icons--color: #879EAF;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    background-color: var(--sidebar--color);
+    transition: all 0.7s;
+}
+
+.sidebar__ls {
+    position: fixed;
+    height: 100vh;
+    width: 99px;
+    background-color: var(--sidebar--color);
+    transition: all 0.8s;
+}
+
+#bi-list {
+    color: #ffffff;
+}
+.bi {
+    display: grid;
+    font-size: 40px;
+    margin-left: 30px;
+    row-gap: 40px;
+    margin-top: 35px;
+    color: var(--sidebar--icons--color);
+}
+
+.sidebar__text {
+    position: relative;
+    top: -32px;
+    margin-left: 100px;
+    font-size: 18px;
+    color: var(--sidebar--icons--color);
+    transition: all 0.7s;
+
+}
+
+.sidebar__text__invisible {
+    top: -32px;
+    margin-left: 100px;
+    font-size: 5px;
+    position: relative;
+    visibility: hidden;
+    color: var(--sidebar--icons--color);
+}
+
+.sidebar__text:hover, .bi:hover {
+    cursor: pointer;
+    color: #FFF !important;
+    transition: all 0.9s;
+}
