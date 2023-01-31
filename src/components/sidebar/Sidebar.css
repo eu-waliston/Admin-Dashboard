@@ -6,9 +6,9 @@
 .sidebar {
     position: fixed;
     height: 100vh;
-    width: 250px;
+    width: 230px;
     background-color: var(--sidebar--color);
-    transition: all 0.7s;
+    transition: all 0.8s;
 }
 
 .sidebar__ls {
@@ -34,7 +34,7 @@
 .sidebar__text {
     position: relative;
     top: -32px;
-    margin-left: 100px;
+    margin-left: 90px;
     font-size: 18px;
     color: var(--sidebar--icons--color);
     transition: all 0.7s;
@@ -43,11 +43,13 @@
 
 .sidebar__text__invisible {
     top: -32px;
-    margin-left: 100px;
-    font-size: 5px;
+    margin-left: 90px;
+    font-size: 3px;
     position: relative;
     visibility: hidden;
     color: var(--sidebar--icons--color);
+
+    transition: all 0.5s;
 }
 
 .sidebar__text:hover, .bi:hover {
