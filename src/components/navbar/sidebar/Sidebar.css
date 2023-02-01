@@ -9,6 +9,7 @@
     width: 230px;
     background-color: var(--sidebar--color);
     transition: all 0.8s;
+    z-index: 2;
 }
 
 .sidebar__ls {
@@ -17,6 +18,7 @@
     width: 99px;
     background-color: var(--sidebar--color);
     transition: all 0.8s;
+    z-index: 2;
 }
 
 #bi-list {

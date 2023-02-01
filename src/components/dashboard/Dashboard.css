@@ -10,27 +10,24 @@
 .dashboard__content_1 {
     height: 40vh;
     width: 100%;
-
-
+    z-index: 1;
 }
 
 .dashboard__content_2 {
     height: 30vh;
-    width: 40%;
-    background-color: rgb(247, 0, 255);
+    width: 36.5%;
 }
 
 .dashboard__content_3 {
     height: 30vh;
-    width: 40%;
-    background-color: rgb(255, 51, 0);
+    width: 36.5%;
 }
 
 .dashboard__content_4 {
     position: relative;
     float: right;
     height: 30vh;
-    width: 60%;
+    width: 62%;
     margin-top: -558px;
     background-color: rgb(47, 0, 255);
 }
@@ -39,12 +36,12 @@
     position: relative;
     float: right;
     height: 30vh;
-    width: 60%;
+    width: 62%;
     margin-top: -280px;
     background-color: rgb(0, 255, 85);
 }
 
-/* ======= CARDS SECTION ======= */
+/* ======= CARDS SECTION TOP CARDS ======= */
 .grid__init__card {
     display: flex;
     gap: 25px;
@@ -59,6 +56,7 @@
     left: 6.3%;
     border-radius: 15px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.178);
+    z-index: 1;
 }
 
 .top__info {
@@ -116,4 +114,116 @@
 
 .gg {
     margin-left: 27%;
+}
+
+/* ======= CARDS SECTION ASIDE CARDS 1 ======= */
+.dashboard__content_2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card__c2 {
+    background-color: #fff;
+    width: 580px;
+    position: relative;
+    left: 17%;
+    top: 2%;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.253);
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card__c2 p {
+    position: relative;
+    font-size: 20px;
+    left: 10%;
+    top: 5%;
+}
+
+.card__c2 h1 {
+    font-size: 60px;
+    position: relative;
+    margin-left: 30%;
+}
+.card__c2  > .heart__i {
+    font-size: 60px;
+    position: relative;
+    margin-left: 32%;
+}
+
+
+.card__c2 .bi {
+    font-size: 50px;
+}
+
+.d2 {
+    position: relative;
+    margin-left: 20%;
+    top: -25%;
+}
+
+.d1 {
+    position: relative;
+    margin-left: 25%;
+    top: -25%;
+}
+
+.re {
+    position: relative;
+    left: 27%;
+    color: rgb(230, 8, 45);
+}
+.bi-cloud-sun-fill {
+    position: relative;
+    left: 25%;  
+    top: -6%;
+    color: rgb(0, 183, 255);
+}
+/* ======= CARDS SECTION ASIDE CARDS 2 ======= */
+.dashboard__content_3 {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    align-items: center;
+}
+
+.card__c3 {
+    background-color: rgba(70, 4, 70, 0.979);
+    height: 90%;
+    width: 280px;
+    position: relative;
+    left:39%;
+    top: -5%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.24);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card__c3  >  .bi {
+    font-size: 60px;
+    color: #fff;
+    position: relative;
+    margin-left: 110px;
+}
+
+.card__c3  > h1 {
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -12%;
+}
+
+.f1 {
+    background-color: rgb(206, 8, 41);
+}
+
+.f2 {
+    background-color: rgb(206, 8, 91);
+}
+
+.f3 {
+    background-color: rgba(206, 81, 8, 0.952);
 }

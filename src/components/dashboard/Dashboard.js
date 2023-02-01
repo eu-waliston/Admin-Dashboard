@@ -16,8 +16,8 @@ const Dashboard = () => {
                                 $ 12, 456
                             </h1>
                             <p>
-                            <i class="bi bi-plus-circle"></i>
-                            5% more heugher than last month
+                                <i class="bi bi-plus-circle"></i>
+                                5% more heugher than last month
                             </p>
                         </div>
                     </div>
@@ -32,8 +32,8 @@ const Dashboard = () => {
                                 1,456,023
                             </h1>
                             <p>
-                            <i class="bi bi-plus-circle"></i>
-                            5% more heugher than last month
+                                <i class="bi bi-plus-circle"></i>
+                                5% more heugher than last month
                             </p>
                         </div>
                     </div>
@@ -48,15 +48,67 @@ const Dashboard = () => {
                                 2,300
                             </h1>
                             <p>
-                            <i class="bi bi-dash-circle"></i>
-                            3% lower than last month
+                                <i class="bi bi-dash-circle"></i>
+                                3% lower than last month
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="dashboard__content_2"></div>
-            <div className="dashboard__content_3"></div>
+
+            <div className="dashboard__content_2">
+                <div className="card__c2">
+                    <p>
+                        Current <br /> Weather
+                    </p>
+                    <i class="bi bi-cloud-sun-fill"></i>
+                    <h1>
+                        21°
+                    </h1>
+                    <i class="bi bi-three-dots d2"></i>
+                </div>
+                <div className="card__c2">
+                    <p>
+                        Health <br />  Care
+                    </p>
+                    <i class="bi bi-heart-fill re"></i>
+                    <h1 className="heart__i">
+                        68
+                    </h1>
+                    <i class="bi bi-three-dots d1"></i>
+                </div>
+            </div>
+
+            <div className="dashboard__content_3">
+                <div className="card__c3">
+                    <i class="bi bi-house-door"></i>
+                    <h1>
+                        User Panel
+                    </h1>
+                </div>
+
+                <div className="card__c3 f1">
+                    <i class="bi bi-cloud-upload  "></i>
+                    <h1>
+                        Cloud Storage
+                    </h1>
+                </div>
+
+                <div className="card__c3 f2">
+                    <i class="bi bi-arrow-down "></i>
+                    <h1>
+                        Updates
+                    </h1>
+                </div>
+
+                <div className="card__c3 f3">
+                    <i class="bi bi-eye"></i>
+                    <h1>
+                        Web Visits
+                    </h1>
+                </div>
+            </div>
+
             <div className="dashboard__content_4"></div>
             <div className="dashboard__content_5"></div>
         </div>
