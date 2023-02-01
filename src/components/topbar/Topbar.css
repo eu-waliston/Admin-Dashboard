@@ -1,0 +1,75 @@
+.top__bar {
+    display: flex;
+    position: absolute;
+    background-color: #ffff;
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.089);
+}
+
+#itens {
+    position: relative;
+    left: 1240px;
+    display: flex;
+}
+
+.icons {
+    position: relative;
+    font-size: 40px;
+    margin-left: 30px;
+    top: 10px;
+}
+.btn-secondary:hover {
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: transparent !important;
+    border: none;
+    color: #000;
+    font-size: 30px;
+    position: relative;
+    top: 12px;
+}
+
+.input__side {
+    height: 50px;
+    width: 250px;
+    position: relative;
+    top: 15px;
+    border-radius: 100px;
+    background-color:#e6e3e3;;
+    border: none;
+    margin-right: -50px;
+}
+
+.bi-search {
+    position: relative;
+    font-size: 25px;
+    top: 22px;
+    left: -20px;
+}
+
+.bi-envelope, .bi-chat {
+    top: 16px;
+    font-size: 33px;
+}
+
+
+.logo__topbar {
+    position: absolute;
+    height: 80px;
+    top: 2px;
+    left: 110px;
+}
+
+.profile__photo {
+    position: relative;
+    height: 70px;
+    top: 5px;
+    margin-left: 12px;
+    background-color: #d8d5d5;
+    border-radius: 100px;
+    padding: 5px;
+
+}

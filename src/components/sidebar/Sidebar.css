@@ -52,7 +52,7 @@
     transition: all 0.5s;
 }
 
-.sidebar__text:hover, .bi:hover {
+.sidebar__text:hover, .stf:hover {
     cursor: pointer;
     color: #FFF !important;
     transition: all 0.9s;
