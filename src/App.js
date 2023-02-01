@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css'
 
-import Sidebar from './components/sidebar/Sidebar';
-import Topbar from './components/topbar/Topbar';
+import Sidebar from './components/navbar/sidebar/Sidebar'
+
+import Topbar from './components/navbar/topbar/Topbar'
 
 function App() {
   return (
