@@ -235,7 +235,7 @@
     border-radius: 15px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.288);
     height: 250px;
-    top: 6px;
+    top: -7px;
 }
 .dashboard__content_4  > img{
     width: 580px;
@@ -269,17 +269,19 @@
 .dashboard__content_5 {
     display: flex;
     gap: 15px;
+    top: -5px;
 
 }
 .card__c5 {
     background-color: rgb(9, 145, 150);
-    width: 580px;
-    height: 265px;
+    width: 587px;
+    height: 268px;
     display: flex;
     border-radius: 15px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.281);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.411);
     position: relative;
     margin-left: -9px;
+    
 }
 
 
