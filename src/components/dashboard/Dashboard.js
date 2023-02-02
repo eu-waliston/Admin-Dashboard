@@ -109,7 +109,13 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div className="dashboard__content_4"></div>
+            <div className="dashboard__content_4">
+                <div classNam="card__c4">
+                    <h1 className="sd">Current <br/> Memory <br/> Load</h1>
+                    <i class="bi bi-three-dots dtsd"></i>
+                </div>
+                <img src={require("../assets/chart1.png")}  alt={"chart"} />
+            </div>
             <div className="dashboard__content_5"></div>
         </div>
     )

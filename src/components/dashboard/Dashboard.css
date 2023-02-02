@@ -227,3 +227,41 @@
 .f3 {
     background-color: rgba(206, 81, 8, 0.952);
 }
+
+/* ======= CARDS SECTION MAIN CARDS ======= */
+.dashboard__content_4  {
+    background-color: #fff;
+    width: 1180px;
+    position: relative;
+    left: -1%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.288);
+    height: 250px;
+    top: 6px;
+}
+.dashboard__content_4  > img{
+    width: 580px;
+    position: relative;
+    border-radius: 100;
+    float: right;
+    right: 10%;
+    border-radius: 15px;
+    top: -150px;
+}
+
+.sd {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-left: -820px;
+    top: 50px;
+}
+
+.dtsd {
+    float: right;
+    position: relative;
+    margin-right: 40px;
+    top: -140px;
+    font-size: 52px;
+}
