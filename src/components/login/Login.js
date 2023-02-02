@@ -31,7 +31,11 @@ const Login = () => {
                         Recuperar senha.
                     </Link>
                 </div>
-                <div className="form__item_2"></div>
+                <div className="form__item_2">
+                    <h1>Admin Dashboard</h1>
+                    <h4>By Tree Chart Tech</h4>
+                    <img src={require("../assets/logo.png")}  alt="fundo" className="logo"/>
+                </div>        
             </div>
         </div>
     );

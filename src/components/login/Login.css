@@ -81,7 +81,7 @@
     flex-direction: column;
 }
 
-.btn {
+.btn-primary {
     color: #fff !important;
     text-decoration: none;
     position: relative;
@@ -135,4 +135,27 @@
 
 .validationCustom01 {
     border: 1px color rgb(219, 11, 11);
+}
+.form__item_2 > h4 {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 800px;
+}
+.form__item_2 > h1   {
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 125px;
+    text-transform: uppercase;
+}
+
+.form__item_2 > img {
+    position: relative;
+    top: 150px;
+    margin-left: 350px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.322);
 }
