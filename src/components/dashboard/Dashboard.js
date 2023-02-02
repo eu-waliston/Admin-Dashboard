@@ -111,12 +111,26 @@ const Dashboard = () => {
 
             <div className="dashboard__content_4">
                 <div classNam="card__c4">
-                    <h1 className="sd">Current <br/> Memory <br/> Load</h1>
+                    <h1 className="sd">Current <br /> Memory <br /> Load</h1>
                     <i class="bi bi-three-dots dtsd"></i>
                 </div>
-                <img src={require("../assets/chart1.png")}  alt={"chart"} />
+                <img src={require("../assets/chart1.png")} alt={"chart"} />
             </div>
-            <div className="dashboard__content_5"></div>
+            <div className="dashboard__content_5">
+                <div className="card__c5">
+                    <h1>Current <br /> Status</h1>
+                    <i className="bi bi-bar-chart-line-fill sts"></i>
+                    <i class="bi bi-three-dots "></i>
+                </div>
+
+                <div className="card__c5_pt2">
+                    <h1 className="cloud">Cloud Storage</h1>
+                    <i class="bi bi-cloud-upload  "></i>
+                    <i class="bi bi-three-dots mdt"></i>
+                    <h1 className="storage">41/50G</h1>
+                    <h1 className="buy">Buy More Space</h1>
+                </div>
+            </div>
         </div>
     )
 }
